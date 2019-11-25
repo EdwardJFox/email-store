@@ -58,6 +58,16 @@ Performing deliveries with
 
 will bypass the email interception and cause the email to be delivered!
 
+## Running the tests
+
+To run the tests, first you need to setup the local database:
+
+    rails db:create db:migrate
+
+Then the test suite can be run with the following command:
+
+    rspec
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

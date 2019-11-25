@@ -41,7 +41,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'chromedriver-helper'
   spec.add_development_dependency 'capybara-selenium'
   spec.add_development_dependency 'puma'
-  spec.add_development_dependency 'will_paginate'
   spec.add_development_dependency 'factory_bot_rails'
   spec.add_development_dependency 'database_cleaner'
 end
