@@ -26,7 +26,8 @@ Gem::Specification.new do |spec|
   spec.test_files = Dir["spec/**/*"]
 
   spec.add_dependency "rails", ">= 5.2.3"
-  spec.add_dependency "will_paginate"
+
+  spec.add_runtime_dependency     "will_paginate"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"

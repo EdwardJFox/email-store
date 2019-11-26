@@ -1,3 +1,5 @@
+require 'will_paginate'
+
 module EmailStore
   class Engine < ::Rails::Engine
     isolate_namespace EmailStore
